@@ -1,9 +1,90 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
 
-include 'modules/header.php';
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-?>
+  <title>A tus Pies Radio</title>
+  <meta content="ATusPiesRadio" name="description">
+  <meta content="ATusPiesRadio" name="keywords">
 
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+ 
+</head>
+
+<body>
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="fixed-top d-flex align-items-center">
+  
+
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope"></i><a href="mailto:atuspiesdejandohuella@gmail.com">atuspiesdejandohuella@gmail.com</a>
+        <i class="bi bi-phone phone-icon"></i><a href="tel:+573003500595">+57 300 350 0595</a>
+      </div>
+      <div class="cta d-none d-md-block">
+        <audio autoplay controls="controls"> <source src="https://stream.zeno.fm/3ypec04s498uv" type="audio/ogg" /> </audio>
+
+      </div>
+    </div>
+  </div>
+
+
+ <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">A Tus Pies Radio</a></h1>
+      <!--a href="index.php" class="logo"><img src="assets/img/logoATP.png" alt="A tus Pies Radio" class="img-fluid"></a-->
+  
+
+  
+
+
+    <nav id="navbar" class="navbar">
+      <ul class="active">
+        <li><a class="nav-link scrollto active" href="index.html">Inicio</a></li>
+        <li><a class="nav-link scrollto" href="index.html#about">Nosotros</a></li>
+        <!--li><a class="nav-link scrollto" href="#services">Servicios</a></li-->
+        <li><a class="nav-link scrollto" href="index.html#portfolio">Artistas</a></li>
+        <li><a class="nav-link scrollto" href="index.html#team">Equipo</a></li>
+        <li><a href="https://atuspiesblog.wordpress.com/">Blog</a></li>
+        <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+  </header><!-- End Header -->
+
+
+  <script>
+    // JavaScript para mostrar/ocultar el menú en dispositivos móviles
+    const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
+    const navUl = document.querySelector("#navbar ul");
+
+    mobileNavToggle.addEventListener("click", () => {
+      navUl.classList.toggle("active");
+    });
+  </script>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
@@ -605,9 +686,87 @@ Se proyecta para este año poder grabar un álbum completo el cual impactará su
 
   </main><!-- End #main -->
 
-  <?php
+<footer id="footer">
 
+   
 
-include 'modules/footer.php';
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
 
-?>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Links Útiles</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Nosotros</a></li>
+              <!--li><i class="bx bx-chevron-right"></i> <a href="#services">Servicios</a></li-->
+              <li><i class="bx bx-chevron-right"></i> <a>Terminos de servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Servicios</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a>Diseño web</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Desarrollo web</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Pautas Publicitarias</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Marketing Digital</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Posicionamiento SEO</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contacto</h4>
+            <p>
+              Barrio el troncal <br>
+              Cali, 760001<br>
+              Colombia<br><br>
+              <strong>teléfono:</strong><a href="https://wa.me/+573003500595">+57 300 350 0595<br></a>
+              <strong>Email:</strong> atuspiesdejandohuella@gmail.com<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Sobre A tus Pies</h3>
+            <p>Ministerio que desea llevar el evangelio a todos los rincones del mundo a través de las herramientas digitales que nos ofrece la tecnología.</p>
+            <div class="social-links mt-3">
+              
+              <a href="https://www.facebook.com/ATusPiesRadio/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/atuspiesradio/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.youtube.com/@Atuspiesradio" class="youtube"><i class="bx bxl-youtube"></i></a>
+           
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>A tus Pies Radio</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       
+        Designed by <a href="http://dhovot.com.co/">Dhovot</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+   <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i></a>
+ 
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
