@@ -1,10 +1,3 @@
-/**
-* Template Name: Anyar
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -251,7 +244,7 @@ h6 {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 22px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -1100,6 +1093,63 @@ section {
 
 @media (min-width: 769px) {
   .cta .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# radio
+--------------------------------------------------------------*/
+.radio {
+  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/logoatpr.png") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.radio h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.radio p {
+  color: #fff;
+}
+
+.radio .radio-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #f6b024;
+  color: #fff;
+}
+
+.radio .radio-btn:hover {
+  background: #f6b024;
+}
+
+@media (max-width: 1024px) {
+  .radio {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .radio .radio-btn-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
