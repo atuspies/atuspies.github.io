@@ -1,0 +1,14 @@
+ max-width: 800px; /* O cualquier otro valor que desees */
+
+  text-align: center; /* Centra el contenido horizontalmente */
+ 
+  align-items: center; /* Centra el contenido verticalmente */
+  justify-content: center;
+}
+  
+  .imagen-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Evita el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+  }

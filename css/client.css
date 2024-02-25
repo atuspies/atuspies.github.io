@@ -1,0 +1,65 @@
+body {
+    background: #ffffff;
+  }
+  
+  .logo-slider {
+      overflow: hidden;
+      padding: 30px 0 0 0;
+      white-space: nowrap;
+      position: relative;
+  }
+  .logo-slider2 {
+    overflow: hidden;
+    padding: 30px 0 0 0;
+    white-space: nowrap;
+    position: relative;
+}
+  
+  .logo-slider:hover .logos-slide {
+      animation-play-state: paused;
+  }
+  .logo-slider2:hover .logos-slide {
+    animation-play-state: paused;
+}
+  .logos-slide {
+      display: inline-block;
+      animation: 45s slide infinite linear;
+  }
+
+  .logos-slide2 {
+    display: inline-block;
+    animation: 45s slide infinite linear;
+}
+  
+  .logos-slide img {
+      width: 183px;
+      height: 83px;
+      margin: 0 40px;
+  }
+  .logos-slide2 img {
+    width: 150px;
+    height: 150px;
+    margin: 0 40px;
+}
+
+  
+  @keyframes slide {
+      from {
+          transform: translateX(0);
+      }
+  
+      to {
+          transform: translateX(-100%);
+      }
+  }
+
+
+  @keyframes slide2 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
