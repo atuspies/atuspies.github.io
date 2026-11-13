@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Estamos construyendo una nueva identidad. Mientras tanto, sigue escuchando A tus Pies Radio en vivo.">
+  <title>Algo nuevo está sonando | A tus Pies Radio</title>
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="coming-soon.css">
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="index.html" aria-label="A tus Pies Radio, página principal">
+      <img src="images/logoatp26.png" alt="A tus Pies Radio" width="78" height="78">
+    </a>
+    <span class="live-note"><i></i> TRANSMITIENDO 24/7</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="main-title">
+      <div class="copy">
+        <p class="eyebrow"><span>✦</span> NUEVA TEMPORADA, NUEVA PIEL</p>
+        <h1 id="main-title">Estamos creando<br>algo <span class="highlight">muy nuestro.</span></h1>
+        <p class="intro">Estamos construyendo una nueva identidad para seguir dejando huellas contigo. Va a sonar, se va a sentir y queremos que seas parte.</p>
+        <p class="keep-listening">Mientras llega lo nuevo, <strong>la radio sigue contigo.</strong> Dale play y quédate cerquita. 💛</p>
+        <a class="listen-link" href="#radio">La música no se detiene <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <div class="playground" id="playground" aria-label="Una pequeña pista de la nueva identidad">
+        <div class="sparkle sparkle-one">✦</div><div class="sparkle sparkle-two">✳</div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="logo-orbit"><img src="images/atplogo-redes.png" alt="Logo de A tus Pies Radio"></div>
+        <button class="teaser" id="teaser" type="button" aria-live="polite" aria-label="Toca para descubrir una pista de lo nuevo">
+          <span class="teaser-top">TÓCAME PARA UNA PISTA</span>
+          <span class="teaser-word" id="teaser-word">FEEL</span>
+          <span class="teaser-bottom">lo que viene empieza aquí ↗</span>
+        </button>
+        <span class="orbit-dot dot-one"></span><span class="orbit-dot dot-two"></span>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div>ADORACIÓN <b>✦</b> PALABRA <b>✦</b> VIDA <b>✦</b> DEJANDO HUELLAS <b>✦</b> ADORACIÓN <b>✦</b> PALABRA <b>✦</b> VIDA <b>✦</b> DEJANDO HUELLAS <b>✦</b></div></div>
+
+    <section class="radio-section" id="radio" aria-label="Reproductor de A tus Pies Radio">
+      <p class="radio-kicker"><span class="onair-dot"></span> TU RADIO, SIEMPRE CERCA</p>
+      <h2>Quédate en sintonía.</h2>
+      <p>Adoración, Palabra y Vida. En vivo, donde estés.</p>
+    </section>
+  </main>
+
+  <footer><span>A tus Pies Radio · Dejando huellas</span><span>Lo nuevo viene en camino <b>✦</b></span></footer>
+
+  <div class="player" id="radio-player">
+    <button class="play" id="play-button" type="button" aria-label="Escuchar A tus Pies Radio" aria-pressed="false">▶</button>
+    <div class="player-info"><b><span class="onair-dot"></span><span id="player-state">Al aire</span></b><span>A tus Pies Radio · en vivo</span></div>
+    <label class="volume-control" for="radio-volume" aria-label="Volumen">🔊<input id="radio-volume" type="range" min="0" max="100" value="75" aria-label="Volumen de la radio"></label>
+    <div class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+  <script src="coming-soon.js" defer></script>
+</body>
+</html>
